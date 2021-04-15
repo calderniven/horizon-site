@@ -1,0 +1,20 @@
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 50px;
+    height: 300px;
+    width: 1130px;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 200px;
+    line-height: 300px;
+    font-weight: bolder;
+    color: rgba(230, 230, 230, 0.85)
+}
