@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     padding: 50px;
     height: 300px;
 }
@@ -22,7 +22,7 @@ header {
 .header-divider {
     height: 1px;
     width: 100%;
-    background: linear-gradient(to right, red, blue);
+    background: linear-gradient(to right, rgba(90, 90, 90, 0.85), rgba(230, 230, 230, 0.85), rgba(90, 90, 90, 0.85));
 }
 
 div.subtitle {
