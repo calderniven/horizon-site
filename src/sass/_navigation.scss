@@ -1,27 +1,29 @@
 .navigation {
     display: flex;
-    justify-content: center;
-    max-width: 1100px;
-    margin: auto;
-    margin: 20px 35px;
+    position: fixed;
+    top: 250px;
+    z-index: +2;
+    width: 1100px;
+    left: 50%;
+    transform: translate(-50%);
     padding: 5px;
-    background-color: rgba(0, 60, 100, 0.452);
-    border-top: 1px solid rgba(60, 190, 255, 0.5);
-    border-bottom: 1px solid rgba(60, 190, 255, 0.5);
-    box-shadow: 0 -12px 20px -5px rgba(60, 190, 255, 0.5), 0 12px 20px -5px rgba(60, 190, 255, 0.5);
-}
-
-div.navigation a {
-    width: 200px;
-    height:20px;
-    margin-right: 5px;
-    margin-left: 5px;
-    padding: 5px 30px;
-    line-height: 20px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    color: rgba(230, 230, 230, 0.85);
-    background-color: rgba(0, 80, 130, 0.35);
-    border: 1px solid rgba(60, 190, 255, 0.1);
+    background-color: rgba(0, 43, 65, 0.7);
+    border-top: 1px solid rgba(50, 179, 230, 0.45);
+    border-bottom: 1px solid rgba(50, 180, 230, 0.45);
+    box-shadow: 0 -12px 18px -5px rgba(50, 171, 215, 0.4), 0 12px 18px -5px rgba(50, 171, 215, 0.4);
+    justify-content: center;
+    
+    a {
+        width: 200px;
+        height:20px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: 5px 30px;
+        line-height: 20px;
+        text-align: center;
+        text-decoration: none;
+        color: rgba(230, 230, 230, 0.89);
+        background-color: rgba(0, 70, 110, 0.5);
+        border: 1px solid rgba(45, 155, 200, 0.1);
+    }  
 }
