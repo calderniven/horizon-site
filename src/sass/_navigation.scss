@@ -11,19 +11,19 @@
     border-top: 1px solid rgba(50, 179, 230, 0.45);
     border-bottom: 1px solid rgba(50, 180, 230, 0.45);
     box-shadow: 0 -12px 18px -5px rgba(50, 171, 215, 0.4), 0 12px 18px -5px rgba(50, 171, 215, 0.4);
-    justify-content: center;
-    
-    a {
-        width: 200px;
-        height:20px;
-        margin-right: 5px;
-        margin-left: 5px;
-        padding: 5px 30px;
-        line-height: 20px;
-        text-align: center;
-        text-decoration: none;
-        color: rgba(230, 230, 230, 0.89);
-        background-color: rgba(0, 70, 110, 0.5);
-        border: 1px solid rgba(45, 155, 200, 0.1);
-    }  
+    justify-content: center;  
+}
+
+.navigation a {
+    width: 200px;
+    height:20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px 30px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(230, 230, 230, 0.89);
+    background-color: rgba(0, 70, 110, 0.5);
+    border: 1px solid rgba(45, 155, 200, 0.1);
 }

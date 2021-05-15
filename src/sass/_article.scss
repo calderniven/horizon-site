@@ -3,18 +3,31 @@
     margin: auto;    
 }
 
+.theme-header {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.theme-text {
+    justify-self: left;
+    font-size: 18px;
+    line-height: 200%;
+    font-weight: lighter;
+    color: rgba(121, 121, 121, 0.602);
+}
+
 .greeting {
-    font-size: 30px;
-    margin-left: 70px;
+    margin-left: 10%;
+    font-size: 40px;
     font-weight: normal;
+    color: rgba(221, 221, 221, 0.808);
 }
 
 .intro {
-    margin: 30px;
+    margin: 0 30px 30px 30px;
     padding: 40px;
 }
-
-
 
 .article p {
     margin: 20px;
